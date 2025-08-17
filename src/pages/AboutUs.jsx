@@ -15,7 +15,7 @@ function Profile() {
             commitment, and customer satisfaction.”
           </p>
           <p className="text-justify text-base sm:text-lg leading-relaxed">
-            SaiPriya Trading Co, established in 2020 in Vadodara, has quickly
+            Sai Priya Trading Co, established in 2020 in Vadodara, has quickly
             grown into a trusted name in the steel tubes and pipes industry.
             With a strong focus on customer satisfaction, we specialize in
             providing a wide range of MS Pipes, GI Pipes, SS Pipes, Rectangular

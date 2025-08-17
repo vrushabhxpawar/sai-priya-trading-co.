@@ -5,6 +5,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,11 +18,11 @@ function Navbar() {
   return (
     <nav className="w-full bg-white shadow-md sticky top-0 z-50 lg:px-10 lg:py-5">
       <div className="flex justify-between items-center px-4 py-3 md:py-4">
-        <NavLink to="/" className="text-xl font-bold">
-          S A I &nbsp; P R I Y A &nbsp; T R A D I N G &nbsp; C O.
-        </NavLink>
-
+        <Link to="/">
+        <img src="SaiPriyaLogo.jpg" className="h-[50px] w-[180px]" />
+        </Link>
         {/* Hamburger Button */}
+        
         <button
           className="md:hidden p-2 rounded-lg bg-gray-100 hover:bg-gray-200 active:scale-95 transition-all duration-200"
           onClick={() => setIsOpen(!isOpen)}
@@ -30,7 +31,7 @@ function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6">
+        <ul className="hidden md:flex gap-6 font-semibold lg:text-xl">
           <NavLink to="/" className={navLinkClass}>
             Home
           </NavLink>
