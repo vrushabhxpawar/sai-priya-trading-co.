@@ -40,12 +40,13 @@ function Gallery() {
         <div className="w-full max-w-6xl">
           <Slider {...settings}>
             {[
-              "outside.webp",
-              "outside2.webp",
-              "stock1.webp",
-              "stock2.webp",
-              "inside.webp",
-              "inside2.webp",
+              "Gallery1.jpeg",
+              "Gallery2.jpeg",
+              "Gallery3.jpeg",
+              "Gallery4.jpeg",
+              "Gallery5.jpeg",
+              "Gallery6.jpeg",
+              "Gallery7.jpeg",
             ].map((img, idx) => (
               <div key={idx} className="px-2 sm:px-3">
                 <img

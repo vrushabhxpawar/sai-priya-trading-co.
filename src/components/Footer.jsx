@@ -23,7 +23,7 @@ function Footer() {
             Pratapnagar, Vadodara, Gujarat, India.
           </p>
             <p className="text-sm md:text-base leading-relaxed">
-            GSTS No. :- 24APLPP6170J1ZI
+            GST No. :- 24APLPP6170J1ZI
           </p>
           <p className="text-sm md:text-base leading-relaxed">
             Contact for sale: <br /> +91 9824293588, +91 9033243588

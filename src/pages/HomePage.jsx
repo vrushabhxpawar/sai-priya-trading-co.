@@ -42,8 +42,8 @@ function HomePage() {
   <section className="w-full flex flex-col gap-6 justify-center items-center py-10 bg-neutral-100">
     <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium">Our Associates</h2>
     <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10">
-      {["/TataSteel.png","/Surya.png","/Jindal.png","/AsianTubes.png","/Apollo.png"].map((logo, idx) => (
-        <img key={idx} src={logo} alt={`associate-${idx}`} className="h-12 sm:h-16 md:h-20 object-contain"/>
+      {["/TataSteel.png","/Surya.png","/Jindal.png","/AsianTubes.png","/Apollo.png", "HML.jpg"].map((logo, idx) => (
+        <img key={idx} src={logo} alt={`associate-${idx}`} className="h-12 sm:h-16 md:h-20 object-contain hover:cursor-pointer"/>
       ))}
     </div>
   </section>

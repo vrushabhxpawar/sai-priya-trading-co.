@@ -4,18 +4,21 @@ import Footer from "../components/Footer.jsx";
 
 function Products() {
 const products = [
-  { image: "/round-pipe.webp", name: "Round Pipe" },
+  { image: "/round-pipe.webp", name: "CRC Round Pipe" },
   { image: "/mild-steel-angle.webp", name: "MS Angle" },
   { image: "/mild-steel-flat.webp", name: "MS Flat" },
-  { image: "/mild-steel-pipe.webp", name: "MS Pipe" },
+  { image: "/mild-steel-pipe.webp", name: "CRC Square Pipe" },
   { image: "/mild-steel-sheet.webp", name: "MS Sheet" },
   { image: "/ms-channel.webp", name: "MS Channel" },
-  { image: "/ms-rectangular.webp", name: "MS Rectangular" },
+  { image: "/ms-rectangular.webp", name: "CRC Rectangular" },
   { image: "/ms-square-rectangle.webp", name: "MS Square & Rectangle" },
-  { image: "/ms-checker.webp", name: "MS Checker" },
+  { image: "/ms-checker.webp", name: "MS Checker Plate" },
   { image: "/ms-hexaangle.webp", name: "MS Hexa Angle" },
   { image: "/ms-dtype.webp", name: "MS D-Type" },
-  { image: "/all-size.webp", name: "All Sizes" },
+  { image: "/all-size.webp", name: "All Sizes Draw" },
+  { image: "/oval-pipe.jpeg", name: "CRC Oval pipe" },
+  { image: "/bright-bar.jpeg", name: "MS Bright Bar" },
+  { image: "/I-beam.jpeg", name: "I-Beam" },
 ];
 
 

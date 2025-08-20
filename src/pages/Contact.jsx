@@ -62,7 +62,7 @@ function Contact() {
             <p className="flex items-start gap-3 text-base sm:text-lg">
               <LocationOnIcon fontSize="large" />
               <span>
-                Saipriya Trading Co. <br />
+                Sai Priya Trading Co. <br />
                 79, Manek Estate, B/h. Narsinhji Estate, <br />
                 Opp. Yamuna Mill, Pratapnagar, Vadodara-390004, <br />
                 Gujarat, India.
