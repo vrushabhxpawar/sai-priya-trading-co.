@@ -33,7 +33,7 @@ function Footer() {
 
       {/* Footer Bottom */}
       <div className="text-center text-sm md:text-base mt-8 md:mt-12">
-        © 2025 SAI PRIYA TRADING CO. All Rights Reserved.
+        © 2026 SAI PRIYA TRADING CO. All Rights Reserved.
       </div>
     </footer>
   );
